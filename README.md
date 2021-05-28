@@ -29,9 +29,9 @@ This repository has a external skin and knife changer for Counter-Strike: Global
 ```c++
 else if (weaponID == WEAPON_?)  //Change "WEAPON_?" to the weapon name with which you will change the skin. Sample; "WEAPON_P90"
 {
-    Paintkit = ?;   //Change "?" to your skin id
+    Paintkit = ?;               //Change "?" to your skin id
     Seed = 420;
-    Statrak = ?;    //Change "?" to your Stattrak number
+    Statrak = ?;                //Change "?" to your Stattrak number
     Quality = 3;
     Wear = 0.0003f;
     strcpy(CustomName, "?");    //Change "?" to your Name Tag
