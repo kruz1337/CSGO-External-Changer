@@ -164,7 +164,7 @@ void skinChanger()
                 float Wear = 0;
                 char CustomName[20] = "";
 
-                if (weaponID == 0) { continue; }
+                if (weaponID == 0) { continue; } //Weapons
                 else if (weaponID == WEAPON_AK47)
                 {
                     Paintkit = 600;
@@ -202,7 +202,7 @@ void skinChanger()
                     Wear = 0.0003f;
                     strcpy(CustomName, "This is knife");
 
-                    writeMem<short>(weaponEntity + m_iItemDefinitionIndex, WEAPON_KNIFE_KARAMBIT);
+                    writeMem<short>(weaponEntity + m_iItemDefinitionIndex, WEAPON_KNIFE_KARAMBIT); //Knife Name
                     writeMem<int>(weaponEntity + m_nModelIndex, knifeIndex);
                 }
                 if (readMem<int>(weaponEntity + m_iItemIDHigh) != -1)
@@ -226,7 +226,7 @@ void skinChanger()
             /* Getting knife model index in other gamestate. */
             if (isGetted == false)
             {
-                knifeIndex = GetModelIndexByID(WEAPON_KNIFE_KARAMBIT);
+                knifeIndex = GetModelIndexByID(WEAPON_KNIFE_KARAMBIT); //Knife Model
                 isGetted = true;
             }
 
