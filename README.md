@@ -1,4 +1,4 @@
-# FindMDL Hook
+# CSGO-External-Changer
 This repository has a external skin and knife changer for Counter-Strike: Global Offensive game. It's fully open source
 
 ![](https://img.shields.io/badge/language-c++-e76089?style=plastic) ![](https://img.shields.io/badge/game-csgo-yellow?style=plastic) ![](https://img.shields.io/badge/license-GNU-green?style=plastic) ![](https://img.shields.io/badge/arch-x86-d9654f?style=plastic)
