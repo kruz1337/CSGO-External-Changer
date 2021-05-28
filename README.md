@@ -6,7 +6,7 @@ This repository has a external skin and knife changer for Counter-Strike: Global
 ![Image of RequestX International Developer Group on Discord](https://github.com/Kruziikrel1/CSGO-External-Changer/blob/main/thumbnail.png)
 
 ## How to build CSGO External Changer Project files?
-* First of all you should download project files on project page or clone this repository from GitBash or GitHub Desktop on your PC. [FindMDL.zip](https://github.com/Kruziikrel1/CSGO-External-Changer)
+* First of all you should download project files on project page or clone this repository from GitBash or GitHub Desktop on your PC. [CSGO-External-Changer.rar](https://github.com/Kruziikrel1/CSGO-External-Changer)
 
 * If you download project files with manual method you need extract zip file.
 
