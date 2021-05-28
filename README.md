@@ -27,14 +27,14 @@ This repository has a external skin and knife changer for Counter-Strike: Global
 
 * Add this code and read comment lines in this code.
 ```c++
-else if (weaponID == WEAPON_?)      //Change "WEAPON_?" to the weapon name with which you will change the skin. Sample; "WEAPON_P90"
+else if (weaponID == WEAPON_?)  //Change "WEAPON_?" to the weapon name with which you will change the skin. Sample; "WEAPON_P90"
 {
-    Paintkit = ?;                   //Change "?" to your skin id
+    Paintkit = ?;   //Change "?" to your skin id
     Seed = 420;
-    Statrak = ?;                    //Change "?" to your Stattrak number
+    Statrak = ?;    //Change "?" to your Stattrak number
     Quality = 3;
     Wear = 0.0003f;
-    strcpy(CustomName, "?");        //Change "?" to your Name Tag
+    strcpy(CustomName, "?");    //Change "?" to your Name Tag
 }
 ```
 
@@ -50,11 +50,11 @@ else if (weaponID == WEAPON_?)      //Change "WEAPON_?" to the weapon name with 
  writeMem<short>(weaponEntity + m_iItemDefinitionIndex, WEAPON_KNIFE_?);    //Change "WEAPON_KNIFE_?" to the knife name with which you will change the skin. Sample; "WEAPON_KNIFE_CANIS"
 ```
 
-* and go to skinChanger below the "Knife Changer" comment line.
+* And go to skinChanger below the "Knife Changer" comment line.
 
 * Change this code instead.
 ```c++
  knifeIndex = GetModelIndexByID(WEAPON_KNIFE_KARAMBIT);
  to
- knifeIndex = GetModelIndexByID(WEAPON_KNIFE_?);                     //Change "WEAPON_KNIFE_?" to Replace with the one you just now replaced
+ knifeIndex = GetModelIndexByID(WEAPON_KNIFE_?);    //Change "WEAPON_KNIFE_?" to Replace with the one you just now replaced
 ```
