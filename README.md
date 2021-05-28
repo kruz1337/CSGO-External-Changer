@@ -50,7 +50,7 @@ else if (weaponID == WEAPON_?)  //Change "WEAPON_?" to the weapon name with whic
  writeMem<short>(weaponEntity + m_iItemDefinitionIndex, WEAPON_KNIFE_?);    //Change "WEAPON_KNIFE_?" to the knife name with which you will change the skin. Sample; "WEAPON_KNIFE_CANIS"
 ```
 
-* And go to skinChanger below the "Knife Changer" comment line.
+* And go to skinChanger below the "Knife Model" comment line.
 
 * Change this code instead.
 ```c++
