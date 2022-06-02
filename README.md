@@ -3,10 +3,10 @@ This repository has a external skin and knife changer for Counter-Strike: Global
 
 ![](https://img.shields.io/badge/language-c++-e76089?style=plastic) ![](https://img.shields.io/badge/game-csgo-yellow?style=plastic) ![](https://img.shields.io/badge/license-GNU-green?style=plastic) ![](https://img.shields.io/badge/arch-x86-d9654f?style=plastic)
 
-![Image of RequestX International Developer Group on Discord](https://github.com/Kruziikrel1/CSGO-External-Changer/blob/main/thumbnail.png)
+![Image of RequestX International Developer Group on Discord](https://github.com/kruz1337/CSGO-External-Changer/blob/main/thumbnail.png)
 
 ## How to build CSGO External Changer Project files?
-* First of all you should download project files on project page or clone this repository from GitBash or GitHub Desktop on your PC. [CSGO-External-Changer.zip](https://github.com/Kruziikrel1/CSGO-External-Changer/releases/)
+* First of all you should download project files on project page or clone this repository from GitBash or GitHub Desktop on your PC. [CSGO-External-Changer.zip](https://github.com/kruz1337/CSGO-External-Changer/releases/)
 
 * If you download project files with manual method you need extract zip file.
 
